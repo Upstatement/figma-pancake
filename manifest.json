@@ -1,6 +1,6 @@
 {
-  "name": "Flatten Except Text",
-  "id": "flatten-except-text-dev",
+  "name": "Pancake Frame",
+  "id": "pancake-frame-dev",
   "api": "1.0.0",
   "main": "code.js",
   "editorType": ["figma"],

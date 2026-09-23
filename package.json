@@ -1,8 +1,8 @@
 {
-  "name": "flatten-except-text",
+  "name": "figma-pancake",
   "version": "0.1.0",
   "private": true,
-  "description": "Figma plugin: rasterize everything in a frame except its text layers.",
+  "description": "Pancake Frame: flatten imagery and preserve editable text.",
   "type": "module",
   "scripts": {
     "build": "esbuild src/code.ts --bundle --target=es2017 --outfile=code.js",
