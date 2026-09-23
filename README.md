@@ -25,5 +25,8 @@ manifest** and pick `manifest.json`. Use `npm run watch` while developing.
 - `npm test` runs the unit tests for the run-partitioning logic.
 - `npm run typecheck` type-checks the plugin and the tests.
 - `npm run build` bundles `src/` into `code.js`, which Figma loads.
+- `npm run assets` renders the publish icon (128×128) and thumbnail
+  (1920×1080) from the SVGs in `assets/`. Needs `rsvg-convert`
+  (`brew install librsvg`).
 
 Design: `docs/2026-09-20-flatten-except-text-plugin.md`.
