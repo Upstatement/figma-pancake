@@ -41,10 +41,13 @@ in its original stacking position. The result is pixel-identical to the input.
    TEXT children break runs and are never modified.
 3. Each run is grouped into a temporary group, exported as PNG at 2x scale,
    and replaced by a single RECTANGLE with an IMAGE fill (scaleMode FILL)
-   sized and positioned to the group's bounding box, inserted at the run's
-   original index. The temporary group is then removed.
+   sized and positioned to the group's render bounds, inserted at the run's
+   original index. The temporary group is then removed. The scale drops
+   below 2x when needed to keep both sides at or under 4000px, because
+   `figma.createImage` rejects images over 4096px.
 4. A hidden child (visible === false) is treated as part of the run it sits
    in. It contributes nothing to the export, which matches how it renders.
+   A run with nothing visible is removed without creating an image.
 5. A frame whose children are all non-text collapses to one image. A frame
    whose children are all text is left untouched.
 6. On completion the plugin closes with a notification: N frames flattened,
@@ -52,7 +55,8 @@ in its original stacking position. The result is pixel-identical to the input.
 
 ## Rendering fidelity rules
 
-- Export the temporary group's own bounds, not the frame's. This keeps
+- Export the temporary group's render bounds, not the frame's. Render bounds
+  include shadows and outside strokes that the plain bounding box would clip. This keeps
   rotated children and children partially outside the frame correct, and
   the frame's own clipping still applies to the resulting rectangle.
 - Exporting a group rather than individual nodes lets Figma composite blend
@@ -70,18 +74,24 @@ Single-file plugin, no UI window.
 
 - `manifest.json`: name, id, `main: code.js`, `editorType: ["figma"]`,
   `documentAccess: "dynamic-page"`.
-- `src/code.ts`, compiled by `tsc` to `code.js`.
+- `src/partition.ts`: the pure `partitionRuns` function, unit-tested with
+  Node's built-in test runner.
+- `src/code.ts`, bundled with `src/partition.ts` by esbuild into `code.js`.
+  Figma loads a single script, so a bundler is the simplest way to keep the
+  pure logic in its own testable file. `tsc` only type-checks.
   - `main()`: reads `figma.currentPage.selection`, filters to frames, calls
     `flattenFrame` on each, notifies, closes.
   - `partitionRuns(children)`: pure function. Given a frame's children array
     returns an ordered list of `{start, end}` index ranges for non-text runs.
-    This is the heart of the plugin and is the piece Jared writes.
+    This is the heart of the plugin and is the piece Jared writes. It
+    returns half-open ranges, so `end` is exclusive like `Array.slice`.
   - `rasterizeRun(frame, run)`: groups, exports, creates the image rect,
     inserts, removes the group.
   - `flattenFrame(frame)`: partitions, then rasterizes runs from last to
     first.
 
-Dependencies: `typescript`, `@figma/plugin-typings`. No bundler, no framework.
+Dependencies: `typescript`, `@figma/plugin-typings`, `@types/node`, `esbuild`.
+No framework.
 
 ## Testing
 
