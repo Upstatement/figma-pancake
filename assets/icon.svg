@@ -1,21 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
-  <!-- Pancake Frame icon: a flat stack with live type standing on top. -->
-  <rect width="128" height="128" rx="28" fill="#FFF1D6"/>
-  <g>
-    <!-- bottom pancake -->
-    <ellipse cx="64" cy="107" rx="44" ry="11" fill="#B8651F"/>
-    <rect x="20" y="98" width="88" height="9" fill="#B8651F"/>
-    <ellipse cx="64" cy="98" rx="44" ry="11" fill="#F4B454"/>
-    <!-- middle pancake -->
-    <ellipse cx="64" cy="95" rx="44" ry="11" fill="#B8651F"/>
-    <rect x="20" y="86" width="88" height="9" fill="#B8651F"/>
-    <ellipse cx="64" cy="86" rx="44" ry="11" fill="#F4B454"/>
-    <!-- top pancake -->
-    <ellipse cx="64" cy="83" rx="44" ry="11" fill="#B8651F"/>
-    <rect x="20" y="74" width="88" height="9" fill="#B8651F"/>
-    <ellipse cx="64" cy="74" rx="44" ry="11" fill="#F4B454"/>
-  </g>
-  <!-- the live "T" -->
-  <rect x="38" y="18" width="52" height="13" rx="3" fill="#2A1810"/>
-  <rect x="57.5" y="18" width="13" height="56" rx="3" fill="#2A1810"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128" viewBox="0 0 128 128">
+  <!-- Pancake Frame icon. The artwork lives in icon-source.png. -->
+  <image href="icon-source.png" xlink:href="icon-source.png" width="128" height="128"/>
 </svg>

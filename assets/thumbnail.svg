@@ -1,26 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
 <!-- Pancake Frame thumbnail. Generated once; edit freely, then run npm run assets. -->
 <rect width="1920" height="1080" fill="#FFF1D6"/>
-<g transform="translate(160 96) scale(1.25)">  <!-- Pancake Frame icon: a flat stack with live type standing on top. -->
-  <rect width="128" height="128" rx="28" fill="#FFF1D6"/>
-  <g>
-    <!-- bottom pancake -->
-    <ellipse cx="64" cy="107" rx="44" ry="11" fill="#B8651F"/>
-    <rect x="20" y="98" width="88" height="9" fill="#B8651F"/>
-    <ellipse cx="64" cy="98" rx="44" ry="11" fill="#F4B454"/>
-    <!-- middle pancake -->
-    <ellipse cx="64" cy="95" rx="44" ry="11" fill="#B8651F"/>
-    <rect x="20" y="86" width="88" height="9" fill="#B8651F"/>
-    <ellipse cx="64" cy="86" rx="44" ry="11" fill="#F4B454"/>
-    <!-- top pancake -->
-    <ellipse cx="64" cy="83" rx="44" ry="11" fill="#B8651F"/>
-    <rect x="20" y="74" width="88" height="9" fill="#B8651F"/>
-    <ellipse cx="64" cy="74" rx="44" ry="11" fill="#F4B454"/>
-  </g>
-  <!-- the live "T" -->
-  <rect x="38" y="18" width="52" height="13" rx="3" fill="#2A1810"/>
-  <rect x="57.5" y="18" width="13" height="56" rx="3" fill="#2A1810"/>
-</g>
+<image href="icon-source.png" xlink:href="icon-source.png" x="140" y="66" width="200" height="200" style="mix-blend-mode:multiply"/>
 <text x="360" y="178" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="92" font-weight="700" fill="#2A1810">Pancake Frame</text>
 <text x="362" y="238" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="40" fill="#8A6A55">Flatten imagery and preserve editable text</text>
 <rect x="160" y="320" width="680" height="640" rx="28" fill="#FFFFFF" stroke="#EADBC4" stroke-width="2"/>
