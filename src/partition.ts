@@ -23,6 +23,17 @@ export interface Layer {
  *   [x, x, x]    -> [{ start: 0, end: 3 }]
  */
 export function partitionRuns(children: ReadonlyArray<Layer>): Run[] {
-  // TODO(jared): implement. `npm test` spells out the expected behavior.
-  throw new Error('partitionRuns is not implemented yet');
+  const runs: Run[] = [];
+  let start = -1; // index where the open run began, or -1 when none is open
+  children.forEach((child, i) => {
+    if (child.type !== 'TEXT') {
+      if (start < 0) start = i;
+    } else if (start >= 0) {
+      runs.push({ start, end: i });
+      start = -1;
+    }
+  });
+  // A frame whose top layers are images leaves a run open at the end.
+  if (start >= 0) runs.push({ start, end: children.length });
+  return runs;
 }
