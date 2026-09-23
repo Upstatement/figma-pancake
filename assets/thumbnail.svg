@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+<!-- Pancake Frame thumbnail. Generated once; edit freely, then run npm run assets. -->
+<rect width="1920" height="1080" fill="#FFF1D6"/>
+<image href="icon-source.png" xlink:href="icon-source.png" x="140" y="66" width="200" height="200" style="mix-blend-mode:multiply"/>
+<text x="360" y="178" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="92" font-weight="700" fill="#2A1810">Pancake Frame</text>
+<text x="362" y="238" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="40" fill="#8A6A55">Flatten imagery and preserve editable text</text>
+<rect x="160" y="320" width="680" height="640" rx="28" fill="#FFFFFF" stroke="#EADBC4" stroke-width="2"/>
+<text x="200" y="384" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#2A1810">Before · 8 layers</text>
+<line x1="160" y1="416" x2="840" y2="416" stroke="#EADBC4" stroke-width="2"/>
+<rect x="200" y="436" width="40" height="40" rx="8" fill="#F3ECE2"/><rect x="208" y="446" width="24" height="20" rx="3" fill="none" stroke="#8A6A55" stroke-width="2.5"/><polyline points="210,464 217,455 222,460 226,456 230,464" fill="none" stroke="#8A6A55" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="260" y="465" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="28" fill="#2A1810">Logo</text>
+<rect x="200" y="496" width="40" height="40" rx="8" fill="#FDE7C2"/><text x="220" y="526" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#2A1810">T</text>
+<text x="260" y="525" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="28" fill="#2A1810">Headline</text>
+<rect x="200" y="556" width="40" height="40" rx="8" fill="#F3ECE2"/><circle cx="220" cy="576" r="10" fill="none" stroke="#8A6A55" stroke-width="2.5"/>
+<text x="260" y="585" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="28" fill="#2A1810">Gradient overlay</text>
+<rect x="200" y="616" width="40" height="40" rx="8" fill="#F3ECE2"/><rect x="208" y="626" width="24" height="20" rx="3" fill="none" stroke="#8A6A55" stroke-width="2.5"/><polyline points="210,644 217,635 222,640 226,636 230,644" fill="none" stroke="#8A6A55" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="260" y="645" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="28" fill="#2A1810">Hero photo</text>
+<rect x="200" y="676" width="40" height="40" rx="8" fill="#FDE7C2"/><text x="220" y="706" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#2A1810">T</text>
+<text x="260" y="705" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="28" fill="#2A1810">Body copy</text>
+<rect x="200" y="736" width="40" height="40" rx="8" fill="#F3ECE2"/><circle cx="220" cy="756" r="10" fill="none" stroke="#8A6A55" stroke-width="2.5"/>
+<text x="260" y="765" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="28" fill="#2A1810">Color block</text>
+<rect x="200" y="796" width="40" height="40" rx="8" fill="#F3ECE2"/><circle cx="220" cy="816" r="10" fill="none" stroke="#8A6A55" stroke-width="2.5"/>
+<text x="260" y="825" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="28" fill="#2A1810">Drop shadow</text>
+<rect x="200" y="856" width="40" height="40" rx="8" fill="#F3ECE2"/><rect x="208" y="866" width="24" height="20" rx="3" fill="none" stroke="#8A6A55" stroke-width="2.5"/><polyline points="210,884 217,875 222,880 226,876 230,884" fill="none" stroke="#8A6A55" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="260" y="885" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="28" fill="#2A1810">Background photo</text>
+<rect x="1080" y="320" width="680" height="640" rx="28" fill="#FFFFFF" stroke="#EADBC4" stroke-width="2"/>
+<text x="1120" y="384" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#2A1810">After · 5 layers</text>
+<line x1="1080" y1="416" x2="1760" y2="416" stroke="#EADBC4" stroke-width="2"/>
+<rect x="1120" y="436" width="40" height="40" rx="8" fill="#F3ECE2"/><rect x="1120" y="436" width="40" height="40" rx="8" fill="#F4B454"/><rect x="1128" y="446" width="24" height="20" rx="3" fill="none" stroke="#2A1810" stroke-width="2.5"/><polyline points="1130,464 1137,455 1142,460 1146,456 1150,464" fill="none" stroke="#2A1810" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="1180" y="465" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="28" fill="#2A1810">Flattened</text>
+<rect x="1626" y="438" width="94" height="36" rx="18" fill="#F4B454"/><text x="1673.0" y="463" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#2A1810">2x PNG</text>
+<rect x="1120" y="496" width="40" height="40" rx="8" fill="#FDE7C2"/><text x="1140" y="526" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#2A1810">T</text>
+<text x="1180" y="525" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="28" fill="#2A1810">Headline</text>
+<rect x="1587" y="498" width="133" height="36" rx="18" fill="#FDE7C2"/><text x="1653.5" y="523" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#B8651F">LIVE TEXT</text>
+<rect x="1120" y="556" width="40" height="40" rx="8" fill="#F3ECE2"/><rect x="1120" y="556" width="40" height="40" rx="8" fill="#F4B454"/><rect x="1128" y="566" width="24" height="20" rx="3" fill="none" stroke="#2A1810" stroke-width="2.5"/><polyline points="1130,584 1137,575 1142,580 1146,576 1150,584" fill="none" stroke="#2A1810" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="1180" y="585" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="28" fill="#2A1810">Flattened</text>
+<rect x="1626" y="558" width="94" height="36" rx="18" fill="#F4B454"/><text x="1673.0" y="583" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#2A1810">2x PNG</text>
+<rect x="1120" y="616" width="40" height="40" rx="8" fill="#FDE7C2"/><text x="1140" y="646" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#2A1810">T</text>
+<text x="1180" y="645" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="28" fill="#2A1810">Body copy</text>
+<rect x="1587" y="618" width="133" height="36" rx="18" fill="#FDE7C2"/><text x="1653.5" y="643" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#B8651F">LIVE TEXT</text>
+<rect x="1120" y="676" width="40" height="40" rx="8" fill="#F3ECE2"/><rect x="1120" y="676" width="40" height="40" rx="8" fill="#F4B454"/><rect x="1128" y="686" width="24" height="20" rx="3" fill="none" stroke="#2A1810" stroke-width="2.5"/><polyline points="1130,704 1137,695 1142,700 1146,696 1150,704" fill="none" stroke="#2A1810" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="1180" y="705" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="28" fill="#2A1810">Flattened</text>
+<rect x="1626" y="678" width="94" height="36" rx="18" fill="#F4B454"/><text x="1673.0" y="703" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#2A1810">2x PNG</text>
+<g transform="translate(960 640)">
+  <circle r="56" fill="#F4B454"/>
+  <path d="M -22 0 H 20 M 4 -18 L 22 0 L 4 18" fill="none" stroke="#2A1810" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

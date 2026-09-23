@@ -8,7 +8,8 @@
     "build": "esbuild src/code.ts --bundle --target=es2017 --outfile=code.js",
     "watch": "esbuild src/code.ts --bundle --target=es2017 --outfile=code.js --watch",
     "typecheck": "tsc && tsc -p tsconfig.test.json",
-    "test": "node --test \"test/*.test.ts\""
+    "test": "node --test \"test/*.test.ts\"",
+    "assets": "rsvg-convert -w 128 -h 128 assets/icon.svg -o assets/icon.png && rsvg-convert -w 1920 -h 1080 assets/thumbnail.svg -o assets/thumbnail.png"
   },
   "devDependencies": {
     "@figma/plugin-typings": "^1.138.0",
